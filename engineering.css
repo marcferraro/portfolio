@@ -5,8 +5,13 @@
 body{
     height: 100%;
     margin: 0;
+    background-color: teal;
 }
 
 .nav-name{
     display: inline;
+}
+
+.pitch{
+    font-size:5vh;
 }
