@@ -23,5 +23,6 @@ body{
     border-radius: 40px;
     object-fit: cover;
     object-position: 0% 30%;
-    border: 5px solid black;
+    border: 5px solid rgb(46, 28, 6);
+    background-color: ;
 }
