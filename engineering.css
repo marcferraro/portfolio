@@ -14,6 +14,7 @@ body{
 
 .pitch{
     font-size:5vh;
+    color:white;
 }
 
 .profile-pic{
@@ -21,6 +22,6 @@ body{
     width: 400px;
     border-radius: 40px;
     object-fit: cover;
-    
+
     border: 5px solid black;
 }
