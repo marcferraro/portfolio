@@ -36,5 +36,13 @@ body{
     margin: 5rem auto;
     width: min(90%, 75rem);
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-auto-flow: row;
+    /* grid-template-columns: 33% 33% 33%; */
+    gap: 2em;
+}
+
+@media (min-width: 55em) {
+    .grid-3-columns {
+        grid-auto-flow: column;
+    }
 }
