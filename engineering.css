@@ -21,8 +21,9 @@ body{
 }
 
 .nav-links {
-    display: flexbox;
+    display: flex;
     justify-content: space-between;
+    width: 11rem;
 }
 
 /* .nav-links {
