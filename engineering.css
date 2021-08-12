@@ -10,6 +10,7 @@ body{
     margin-bottom: 20px;
     width: 100%;
     display: flex;
+    /* position: fixed; */
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
@@ -18,17 +19,15 @@ body{
 .nav-name{
     display: inline;
     margin: 0;
+    margin-left: .5rem;
 }
 
 .nav-links {
     display: flex;
     justify-content: space-between;
     width: 11rem;
+    margin-right: .5rem;
 }
-
-/* .nav-links {
-    list-style: none;
-} */
 
 .pitch{
     font-size:5vh;
