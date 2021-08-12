@@ -1,18 +1,33 @@
-.navbar{
-    background-color:rgb(250, 218, 74);
-    border-bottom: 1px solid rgb(46, 28, 6);
-    margin-bottom: 20px;
-}
-
 body{
     height: 100%;
     margin: 0;
     background-color: rgb(32, 124, 124);
 }
 
+.navbar{
+    background-color:rgb(250, 218, 74);
+    border-bottom: 1px solid rgb(46, 28, 6);
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
 .nav-name{
     display: inline;
+    margin: 0vh;
 }
+
+.nav-links {
+    display: flexbox;
+    justify-content: space-between;
+}
+
+/* .nav-links {
+    list-style: none;
+} */
 
 .pitch{
     font-size:5vh;
