@@ -66,6 +66,9 @@ body{
     .grid-3-columns {
         grid-auto-flow: column;
     }
+    .blogs {
+        grid-auto-flow: column;
+    }
 }
 
 .demos{
@@ -74,7 +77,28 @@ body{
 }
 
 .blogs{
-    display: grid;
+    /* width: min(90%, 75rem); */
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    background-color: indianred;
+    /* grid-template-columns: 100%; */
+    /* grid-auto-flow: row; */
+}
+
+.blog-container{
+    display: flex;
+    width: 70%;
+    /* width: min(90%, 75rem); */
+    /* gap: 2em; */
+    justify-content: space-around;
     /* grid-template-columns: 33% 33% 33%; */
+} 
+
+.blog-card{
+    background-color: grey;
+    height:10rem;
+    width: 10rem;
+    border: 1px solid rgb(46, 28, 6);
 }
