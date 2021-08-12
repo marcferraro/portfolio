@@ -35,6 +35,11 @@ body{
     color:white;
 }
 
+.section-header{
+    font-size:5vh;
+    color:white;
+}
+
 .profile-pic{
     height: 400px;
     width: 400px;
@@ -61,4 +66,15 @@ body{
     .grid-3-columns {
         grid-auto-flow: column;
     }
+}
+
+.demos{
+    display: flex;
+    justify-content: center;
+}
+
+.blogs{
+    display: grid;
+    justify-content: center;
+    /* grid-template-columns: 33% 33% 33%; */
 }
