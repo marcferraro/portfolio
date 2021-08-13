@@ -30,6 +30,11 @@ body{
     font-size: 17px;
 }
 
+.nav-links{
+    text-decoration: none;
+    color: #C14953;
+}
+
 .intro{
     padding-top: 20px;
 }
