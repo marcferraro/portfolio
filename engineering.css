@@ -69,7 +69,7 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     margin-bottom: 8em;
 }
@@ -91,7 +91,8 @@ body{
 
 .grid-3-columns{
     margin: 3rem;
-    width: min(50%, 90rem);
+    /* width: min(90%, 5rem); */
+    width: 59vw;
     display: grid;
     grid-auto-flow: row;
     /* grid-template-columns: 33% 33% 33%; */
