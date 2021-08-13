@@ -70,7 +70,8 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    margin-bottom: 8em;
 }
 
 .profile-pic{
@@ -90,7 +91,7 @@ body{
 
 .grid-3-columns{
     margin: 3rem;
-    width: min(80%, 75rem);
+    width: min(50%, 90rem);
     display: grid;
     grid-auto-flow: row;
     /* grid-template-columns: 33% 33% 33%; */
