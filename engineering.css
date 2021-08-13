@@ -84,6 +84,7 @@ body{
     object-fit: cover;
     object-position: 0% 30%;
     border: 5px solid rgb(46, 28, 6);
+    background-color: #C14953;
 }
 
 .blurb{
@@ -116,7 +117,7 @@ body{
 }
 
 .demo-embed{
-    background-color: gray;
+    background-color: #C14953;
     border-radius: 10px;
 }
 
