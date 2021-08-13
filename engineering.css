@@ -37,16 +37,24 @@ body{
 
 .intro{
     padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .pitch{
     font-size:4em;
-    color:#E9F1F7;
+    color:#FFFFFF;
+    /* margin-left: 10%; */
+    /* width: 80%; */
+}
+
+.pitch-comment{
+    display: inline;
 }
 
 .section-header{
     font-size:5em;
-    color:#E9F1F7;
+    color:#FFFFFF;
 }
 
 .profile-pic{
