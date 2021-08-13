@@ -22,12 +22,12 @@ body{
     font-size: 2rem;
 }
 
-.nav-links {
+.nav-links-container {
     display: flex;
     justify-content: space-between;
     width: 14rem;
     margin-right: .5rem;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .intro{
@@ -40,8 +40,8 @@ body{
 }
 
 .section-header{
-    font-size:5vh;
-    color:white;
+    font-size:5em;
+    color:#E9F1F7;
 }
 
 .profile-pic{
