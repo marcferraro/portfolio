@@ -68,6 +68,7 @@ body{
 .bio{
     display: flex;
     flex-direction: row;
+    /* add variable wrapping */
     flex-wrap: wrap;
     /* align-items: center; */
     justify-content: center;
@@ -77,8 +78,8 @@ body{
 .profile-pic{
     /* display: flex;
     justify-content: center; */
-    height: 400px;
-    width: 400px;
+    height: 350px;
+    width: 350px;
     border-radius: 40px;
     object-fit: cover;
     object-position: 0% 30%;
