@@ -35,6 +35,11 @@ body{
     color: #C14953;
 }
 
+.content-container{
+    display: flex;
+    flex-direction: column;
+}
+
 .intro{
     padding-top: 20px;
     display: flex;
