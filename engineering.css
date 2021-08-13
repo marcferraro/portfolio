@@ -112,6 +112,11 @@ body{
     margin-bottom: 10px;
 }
 
+.demo-embed{
+    background-color: gray;
+    border-radius: 10px;
+}
+
 .blogs{
     /* width: min(90%, 75rem); */
     display: flex;
