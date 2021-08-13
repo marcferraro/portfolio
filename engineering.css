@@ -50,6 +50,7 @@ body{
 
 .pitch-comment{
     display: inline;
+    color: #C14953;
 }
 
 .section-header{
@@ -64,7 +65,6 @@ body{
     object-fit: cover;
     object-position: 0% 30%;
     border: 5px solid rgb(46, 28, 6);
-    margin-left: 30%;
 }
 
 .blurb{
