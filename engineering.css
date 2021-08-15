@@ -51,6 +51,7 @@ body{
 .pitch{
     font-size:4em;
     color:#FFFFFF;
+    margin-bottom: 2rem;
     /* margin-left: 10%; */
     /* width: 80%; */
 }
