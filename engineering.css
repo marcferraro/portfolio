@@ -52,6 +52,9 @@ body{
     font-size:4em;
     color:#FFFFFF;
     margin-bottom: 2rem;
+    animation-name: typing;
+    animation-duration: 3000ms;
+    animation-iteration-count:initial;
     /* margin-left: 10%; */
     /* width: 80%; */
 }
@@ -161,3 +164,4 @@ body{
     from { opacity: 1;}
     to {opacity: 0;}
 }
+
