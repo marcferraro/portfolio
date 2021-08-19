@@ -96,7 +96,7 @@ body{
     object-fit: cover;
     object-position: 0% 30%;
     border: 5px solid var(--brownborder);
-    background-color: #C14953;
+    background-color: var(--brickred);
 }
 
 .blurb{
@@ -129,7 +129,7 @@ body{
 }
 
 .demo-embed{
-    background-color: #C14953;
+    background-color: var(--brickred);
     border-radius: 10px;
 }
 
@@ -155,10 +155,10 @@ body{
 } 
 
 .blog-card{
-    background-color: #C14953;
+    background-color: var(--brickred);
     height:10rem;
     width: 10rem;
-    border: 1px solid rgb(46, 28, 6);
+    border: 1px solid var(--brownborder);
 }
 
 .blinking-cursor{
