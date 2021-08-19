@@ -1,6 +1,6 @@
 :root {
     --teal: rgb(32, 124, 124);
-    --white: #ffffff;
+    --brickred: #C14953;
 }
   
 
@@ -67,7 +67,7 @@ body{
 
 .pitch-comment{
     display: inline;
-    color: #C14953;
+    color: var(--brickred);
 }
 
 .section-header{
