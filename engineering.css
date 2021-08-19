@@ -150,7 +150,7 @@ body{
     width: 70%;
     /* width: min(90%, 75rem); */
     /* gap: 2em; */
-    justify-content: space-around;
+    justify-content: flex-start;
     /* grid-template-columns: 33% 33% 33%; */
 } 
 
