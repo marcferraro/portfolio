@@ -1,6 +1,7 @@
 :root {
     --teal: rgb(32, 124, 124);
     --brickred: #C14953;
+    --navyellow: rgb(250, 218, 74)
 }
   
 
@@ -11,7 +12,7 @@ body{
 }
 
 .navbar{
-    background-color:rgb(250, 218, 74);
+    background-color: var(--navyellow);
     border-bottom: 1px solid rgb(46, 28, 6);
     width: 100%;
     display: flex;
@@ -38,7 +39,7 @@ body{
 
 .nav-links{
     text-decoration: none;
-    color: #C14953;
+    color: var(--brickred);
 }
 
 .content-container{
