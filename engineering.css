@@ -1,7 +1,13 @@
+:root {
+    --teal: rgb(32, 124, 124);
+    --white: #ffffff;
+}
+  
+
 body{
     height: 100%;
     margin: 0;
-    background-color: rgb(32, 124, 124);
+    background-color: var(--teal);
 }
 
 .navbar{
