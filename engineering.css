@@ -149,7 +149,7 @@ body{
 .blog-container{
     display: flex;
     flex-wrap: wrap;
-    width: min(40.5rem);
+    width: min(43.5rem);
     justify-content: flex-start;
     gap: 1rem;
     
