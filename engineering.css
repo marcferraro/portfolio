@@ -144,13 +144,17 @@ body{
     /* grid-auto-flow: row; */
 }
 
+/* USE GRID FOR THE BLOG CONTAINER! */
+
 .blog-container{
     display: flex;
     flex-wrap: wrap;
-    width: 70%;
+    width: min(40.5rem);
+    justify-content: flex-start;
+    gap: 1rem;
+    
     /* width: min(90%, 75rem); */
     /* gap: 2em; */
-    justify-content: flex-start;
     /* grid-template-columns: 33% 33% 33%; */
 } 
 
