@@ -149,8 +149,11 @@ body{
 .blog-container{
     display: flex;
     flex-wrap: wrap;
-    width: min(43.5rem);
-    justify-content: flex-start;
+    padding: 2rem;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    
+    /* width: min(43.5rem); */
     gap: 1rem;
     
     /* width: min(90%, 75rem); */
