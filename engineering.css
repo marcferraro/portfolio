@@ -54,6 +54,7 @@ body{
 
 .intro{
     margin-top: 40px;
+    /* padding: 2rem; */
     /* padding-top: 20px; */
     display: flex;
     /* margin-left: 11vw; */
@@ -63,9 +64,11 @@ body{
 }
 
 .pitch{
+    margin: 0;
+    /* margin-top: 0rem;
+    margin-bottom: 0rem; */
     font-size:4em;
     color:#FFFFFF;
-    margin-bottom: 2rem;
     animation-name: typing;
     animation-duration: 2500ms;
     animation-iteration-count:initial;
