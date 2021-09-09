@@ -172,9 +172,13 @@ body{
 
 .blog-card{
     background-color: var(--brickred);
-    height:10rem;
-    width: 10rem;
+    height:15rem;
+    width: 15rem;
     border: 1px solid var(--brownborder);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .blinking-cursor{
