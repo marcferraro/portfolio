@@ -183,6 +183,7 @@ body{
 
 #blog-card-3{
     background-image: url("ppllnnn\ -\ Manolo\ Gamboa\ Naon\,\ July\ 31\,\ 2018.png");
+    background-size: contain;
 }
 
 .blinking-cursor{
