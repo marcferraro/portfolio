@@ -181,6 +181,10 @@ body{
     align-items: center;
 }
 
+#blog-card-3{
+    background-image: url("ppllnnn\ -\ Manolo\ Gamboa\ Naon\,\ July\ 31\,\ 2018.png");
+}
+
 .blinking-cursor{
     animation-name: blink;
     animation-duration: 1000ms;
