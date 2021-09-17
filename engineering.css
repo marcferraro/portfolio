@@ -54,7 +54,6 @@ body{
 
 .intro{
     margin-top: 40px;
-    /* padding: 2rem; */
     /* padding-top: 20px; */
     display: flex;
     justify-content: center;
@@ -146,7 +145,7 @@ body{
 section{
     width: 100vw;
     height: 100vh;
-    /* background-color: indianred; */
+    background-color: indianred;
 }
 
 .blogs{
