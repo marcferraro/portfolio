@@ -58,8 +58,8 @@ body{
     /* padding-top: 20px; */
     display: flex;
     /* margin-left: 11vw; */
-    border: 4px solid var(--brownborder);
-    border-radius: 40px;
+    /* border: 4px solid var(--brownborder); */
+    /* border-radius: 40px; */
     /* justify-content: center; */
 }
 
