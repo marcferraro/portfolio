@@ -88,6 +88,7 @@ body{
 }
 
 .bio{
+    margin-top: 50px;
     display: flex;
     flex-direction: row;
     /* add variable wrapping */
