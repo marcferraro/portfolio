@@ -53,6 +53,7 @@ body{
 }
 
 .intro{
+    background-color: black;
     margin-top: 40px;
     /* padding-top: 20px; */
     display: flex;
@@ -147,7 +148,7 @@ body{
 section{
     width: 100vw;
     height: 100vh;
-    background-color: indianred;
+    /* background-color: indianred; */
 }
 
 .blogs{
