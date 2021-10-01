@@ -25,6 +25,7 @@ body{
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+    color: white;
 }
 
 .nav-name{
@@ -44,7 +45,8 @@ body{
 
 .nav-links{
     text-decoration: none;
-    color: var(--brickred);
+    /* color: var(--brickred); */
+    color: inherit;
 }
 
 .content-container{
@@ -54,7 +56,8 @@ body{
 }
 
 .intro{
-    background-color: rgb(159, 208, 231);
+    /* background-color: rgb(159, 208, 231); */
+    background-color: var(--teal);
     margin-top: 38px;
     /* padding-top: 20px; */
     display: flex;
