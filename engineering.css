@@ -57,7 +57,7 @@ body{
 
 .intro{
     /* background-color: rgb(159, 208, 231); */
-    background-color: var(--teal);
+    background-color: #FFFFFF;
     margin-top: 38px;
     /* padding-top: 20px; */
     display: flex;
