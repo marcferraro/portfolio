@@ -84,7 +84,8 @@ body{
 
 .pitch-comment{
     display: inline;
-    color: var(--navyellow);
+    color: rgb(197, 197, 197);
+    /* color: var(--navyellow); */
 }
 
 .section-header{
