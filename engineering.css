@@ -74,7 +74,7 @@ body{
     /* margin-top: 0rem;
     margin-bottom: 0rem; */
     font-size:4em;
-    color: var(--teal);
+    color: rgb(130, 130, 211);
     animation-name: typing;
     animation-duration: 2500ms;
     animation-iteration-count:initial;
