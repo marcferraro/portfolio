@@ -1,5 +1,7 @@
 :root {
-    --teal: rgb(32, 124, 124);
+    /* --teal: rgb(32, 124, 124); */
+    /* --teal: #F6F6F6; */
+    --teal: #37323E;
     --brickred: #C14953;
     /* --navyellow: rgb(250, 218, 74); */
     --navyellow: #363440;
@@ -17,6 +19,7 @@ body{
 
 .navbar{
     background-color: var(--navyellow);
+    /* background-color: #363440; */
     border-bottom: 1px solid var(--brownborder);
     position: absolute;
     width: 100%;
@@ -33,6 +36,14 @@ body{
     margin: 0;
     margin-left: .5rem;
     font-size: 2rem;
+    color: #FFFFFF;
+    /* transition: all 2s ease; */
+}
+
+.nav-name:hover{
+    /* color: rgb(241, 241, 142); */
+    color: #fcc95c;
+    cursor: pointer;
 }
 
 .nav-links-container {
@@ -57,7 +68,7 @@ body{
 
 .intro{
     /* background-color: rgb(159, 208, 231); */
-    background-color: #FFFFFF;
+    /* background-color: #FFFFFF; */
     margin-top: 38px;
     /* padding-top: 20px; */
     display: flex;
@@ -74,9 +85,10 @@ body{
     /* margin-top: 0rem;
     margin-bottom: 0rem; */
     font-size:4em;
-    color: rgb(130, 130, 211);
+    /* color: rgb(130, 130, 211); */
+    color: #fcc95c;
     animation-name: typing;
-    animation-duration: 2500ms;
+    animation-duration: 3800ms;
     animation-iteration-count:initial;
     /* margin-left: 10%; */
     /* width: 80%; */
@@ -84,14 +96,16 @@ body{
 
 .pitch-comment{
     display: inline;
-    color: rgb(130, 130, 211);
+    /* color: rgb(130, 130, 211); */
+    color: #5d92b4;
     opacity: .4;
     /* color: var(--navyellow); */
 }
 
 .section-header{
     font-size:5em;
-    color:#FFFFFF;
+    /* color:#FFFFFF; */
+    color: rgb(129, 180, 180);
 }
 
 .bio{
@@ -110,15 +124,16 @@ body{
     justify-content: center; */
     height: 350px;
     width: 350px;
-    border-radius: 40px;
+    /* border-radius: 40px; */
+    border-radius: 50%;
     object-fit: cover;
     object-position: 0% 30%;
-    border: 5px solid var(--brownborder);
+    border: 2px solid var(--brownborder);
     background-color: var(--brickred);
 }
 
 .blurb{
-    color: white;
+    color: #FFFFFF;
 }
 
 .grid-3-columns{
@@ -138,6 +153,10 @@ body{
     .blogs {
         grid-auto-flow: column;
     }
+}
+
+.technologies{
+    background-color: #514a5c;
 }
 
 .demos{
