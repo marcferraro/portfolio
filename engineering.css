@@ -20,7 +20,8 @@ body{
 .navbar{
     background-color: var(--navyellow);
     /* background-color: #363440; */
-    border-bottom: 1px solid var(--brownborder);
+    /* border-bottom: 1px solid var(--brownborder); */
+    border-bottom: 1px solid rgb(250, 218, 74);
     position: absolute;
     width: 100%;
     display: flex;
@@ -69,6 +70,8 @@ body{
 .intro{
     /* background-color: rgb(159, 208, 231); */
     /* background-color: #FFFFFF; */
+    background-color: #514a5c;
+    
     margin-top: 38px;
     /* padding-top: 20px; */
     display: flex;
@@ -104,19 +107,39 @@ body{
 
 .section-header{
     font-size:5em;
-    /* color:#FFFFFF; */
-    color: rgb(129, 180, 180);
+    color: #fcc95c;
+    /* color: rgb(129, 180, 180); */
+}
+
+.yellow-border{
+    height: 100%;
+    width: 100%;
+    border: 1px solid rgb(250, 218, 74);
+}
+
+.bio-section{
+    box-sizing: border-box;
+    background-color: #3e3846;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .bio{
-    margin-top: 50px;
+    /* margin: 2rem; */
+    border: 1px solid rgb(250, 218, 74);
+    box-sizing: border-box;
+    background-color: #3e3846;
+    width: 95%;
+    height: 90%;
+    /* margin-top: 50px; */
     display: flex;
     flex-direction: row;
     /* add variable wrapping */
     flex-wrap: wrap;
-    /* align-items: center; */
+    align-items: center;
     justify-content: center;
-    margin-bottom: 8em;
+    /* margin-bottom: 8em; */
 }
 
 .profile-pic{
@@ -160,11 +183,10 @@ body{
 }
 
 .demos{
-    background-color: #FFFFFF;
+    background-color: #3e3846;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 10px;
 }
 
 .demo-embed{
@@ -175,16 +197,15 @@ body{
 section{
     width: 100vw;
     height: 100vh;
-    /* background-color: indianred; */
+    background-color: indianred;
 }
 
 .blogs{
-    /* width: min(90%, 75rem); */
+    background-color: #514a5c;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background-color: #F2A65A; */
     /* grid-template-columns: 100%; */
     /* grid-auto-flow: row; */
 }
