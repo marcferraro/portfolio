@@ -11,8 +11,10 @@
 
 body{
     height: 100%;
-    margin: 0;
+    margin: 0px;
     background-color: var(--teal);
+    /* border: 1px solid rgb(250, 218, 74); */
+    
     /* background: rgb(0,0,0);
     background: linear-gradient(160deg, rgba(0,0,0,1) 17%, rgba(33,124,124,1) 53%); */
 }
@@ -106,7 +108,7 @@ body{
 }
 
 .section-header{
-    font-size:5em;
+    font-size:4em;
     color: #fcc95c;
     margin: 0;
     /* margin-right: 16rem; */
@@ -120,26 +122,27 @@ body{
 }
 
 .bio-section{
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     background-color: #3e3846;
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
+    flex-direction: column;
 }
 
 .bio{
-    /* margin: 2rem; */
+    margin-top: 5rem;
     /* border: 1px solid rgb(250, 218, 74); */
     box-sizing: border-box;
-    background-color: #3e3846;
-    width: 95%;
-    height: 90%;
+    /* background-color: #3e3846; */
+    background-color: #5d92b4;
+    border-radius: 2rem;
+    /* width: 95%; */
+    height: 10rem;
     /* margin-top: 50px; */
     display: flex;
     flex-direction: row;
     /* add variable wrapping */
     flex-wrap: wrap;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     /* margin-bottom: 8em; */
 }
@@ -147,15 +150,21 @@ body{
 .profile-pic{
     /* display: flex;
     justify-content: center; */
-    height: 30em;
-    width: 30em;
+    height: 20em;
+    width: 20em;
     /* border-radius: 40px; */
-    border-radius: 4em;
+    border-radius: 50%;
     object-fit: cover;
     object-position: 0% 30%;
     border: 2px solid var(--brownborder);
     background-color: var(--brickred);
 }
+
+/* .profile-bracket{
+    font-size: 15rem;
+    color: #fcc95c;
+    margin-bottom: 2rem;
+} */
 
 .blurb{
     color: #FFFFFF;
