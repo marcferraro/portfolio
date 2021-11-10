@@ -109,7 +109,7 @@ body{
     font-size:5em;
     color: #fcc95c;
     margin: 0;
-    margin-right: 16rem;
+    /* margin-right: 16rem; */
     /* color: rgb(129, 180, 180); */
 }
 
@@ -182,6 +182,16 @@ body{
 
 .technologies{
     background-color: #514a5c;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 2em;
+    box-sizing: border-box;
+}
+
+.tech-list-wrapper{
+    color: white;
 }
 
 .demos{
@@ -198,8 +208,10 @@ body{
 }
 
 section{
-    width: 100vw;
+    /* width: 100vw; */
     height: 100vh;
+    max-width: 100vw;
+    max-height: 100vh;
     background-color: indianred;
 }
 
