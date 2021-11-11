@@ -209,7 +209,7 @@ body{
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
-    align-items: center;
+    /* align-items: center; */
     padding: 2em;
     box-sizing: border-box;
 }
@@ -223,12 +223,14 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    padding: 2em;
+    /* align-items: center; */
 }
 
 .demo-embed{
     background-color: var(--brickred);
     border-radius: 10px;
+    margin-left: 2em;
 }
 
 section{
@@ -244,7 +246,8 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    padding: 2em;
+    /* align-items: center; */
     /* grid-template-columns: 100%; */
     /* grid-auto-flow: row; */
 }
@@ -275,6 +278,24 @@ section{
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+}
+
+#blog-card-1{
+    background-image: url("asterisk-512.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
+    background-position: center;
+    background-size: 80%;
+}
+
+#blog-card-2{
+    background-image: url("labanotation.jpg");
+    /* background-size:cover; */
+    background-position: center;
+    background-size: 150%;
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
 }
 
 #blog-card-3{
