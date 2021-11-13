@@ -8,6 +8,10 @@
     --brownborder: rgb(46, 28, 6);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 @font-face {
     font-family: 'Rockwell';
     src: url(ROCK.TTF);
@@ -83,12 +87,18 @@ body{
     padding: 1rem;
 }
 
+.side-bar a{
+    text-decoration: none;
+    color: white;
+}
+
 .side-bar p{
     margin: 0;
+    text-align: end;
 }
 
 .side-bar p:hover{
-    cursor: pointer;
+    color: #fcc95c;
 }
 
 .content-container{
