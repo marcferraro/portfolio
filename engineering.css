@@ -87,6 +87,10 @@ body{
     margin: 0;
 }
 
+.side-bar p:hover{
+    cursor: pointer;
+}
+
 .content-container{
     display: flex;
     flex-direction: column;
@@ -321,6 +325,7 @@ section{
     background-color: #645B71;
     border-radius: 2rem;
     margin-left: 2rem;
+    margin-right: 2rem;
     margin-top: .5rem;
     /* align-items: center; */
     
