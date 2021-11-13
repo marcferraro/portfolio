@@ -34,7 +34,7 @@ body{
     /* border-bottom: 1px solid var(--brownborder); */
     border-bottom: 1px solid rgb(250, 218, 74);
     box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2);
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
     display: flex;
     position: fixed;
@@ -75,6 +75,18 @@ body{
     color: inherit;
 }
 
+.side-bar{
+    position: fixed;
+    right: 0;
+    top: 5rem;
+    background-color: grey;
+    padding: 1rem;
+}
+
+.side-bar p{
+    margin: 0;
+}
+
 .content-container{
     display: flex;
     flex-direction: column;
@@ -87,7 +99,7 @@ body{
     background-color: #514a5c;
     height: 100vh;
     
-    margin-top: 38px;
+    margin-top: 2rem;
     /* padding-top: 20px; */
     display: flex;
     /* justify-content: center; */
@@ -101,7 +113,7 @@ body{
 
 .pitch{
     margin-bottom: 17rem;
-    padding-left: 2rem;
+    padding-left: 3rem;
     padding-right: 2rem;
     /* padding-top: 6rem; */
     /* margin-top: 0rem;
