@@ -87,8 +87,11 @@ body{
     position: fixed;
     right: 0;
     top: 2.5rem;
+    width: 10%;
+    height: 23%;
     /* background-color: grey; */
     padding: 1rem;
+    background-image: linear-gradient(to bottom left, #fcc95c, #3e384600 50%);
 }
 
 .side-bar a{
