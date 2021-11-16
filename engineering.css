@@ -173,10 +173,12 @@ body{
     color: #fcc95c;
     margin: 0;
     padding-left: 2rem;
-    font-family: 'DM Serif Display', serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
+    font-weight: 900;
+    /* font-family: 'DM Serif Display', serif;
+    font-style: italic; */
     /* margin-right: 16rem; */
-    /* color: rgb(129, 180, 180); */
 }
 
 .yellow-border{
@@ -229,7 +231,10 @@ body{
 .blurb{
     color: #FFFFFF;
     font-size: 2rem;
-    font-family: 'Crete Round', serif;
+    /* font-family: 'Crete Round', serif; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 800;
 }
 
 .blurb p{
