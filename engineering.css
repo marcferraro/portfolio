@@ -299,19 +299,17 @@ nav a{
 .tech-list-wrapper{
     padding: 2rem;
     color: white;
-    display: flex;
-    justify-content: space-evenly;
+    /* display: flex;
+    justify-content: space-evenly; */
 }
 
 .tech-list-wrapper h2{
+    color: #fcc95c;
+    font-style: italic;
+    font-size: 2rem;
+    font-weight: 900;
     margin: 0px;
-}
-
-.currently-learning{
-    background-color: #645B71;
-    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 2rem;
-    padding: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .my-stack{
@@ -319,6 +317,35 @@ nav a{
     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 2rem;
     padding: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* .my-stack li{
+    list-style-type: none;
+    margin: none;
+} */
+
+.tech-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.tech-container p{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.currently-learning{
+    background-color: #645B71;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 2rem;
+    padding: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .demos{
