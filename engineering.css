@@ -354,14 +354,41 @@ nav a{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 2em;
+    padding: 2rem;
     /* align-items: center; */
+}
+
+.demos-wrapper{
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
 }
 
 .demo-embed{
     background-color: var(--brickred);
     border-radius: 10px;
-    margin-left: 2em;
+    margin: 1rem;
+}
+
+.demo-coming-soon{
+    width: 560px;
+    height: 315px;
+    margin: 1rem;
+    background-color: #645B71;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to bottom right, #141218c0, #514a5c);
+    box-shadow: 0 1px 8px 0 #fcc95c;;
+}
+
+.demo-coming-soon h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-style: italic;
+    margin-top: 4rem;
 }
 
 section{
