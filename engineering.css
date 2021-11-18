@@ -366,7 +366,9 @@ nav a{
 }
 
 .demo-embed{
-    background-color: var(--brickred);
+    /* background-color: var(--brickred); */
+    background-image: linear-gradient(to bottom right, #141218c0, #514a5c);
+    background-color: #645B71;
     border-radius: 10px;
     margin: 1rem;
 }
