@@ -254,6 +254,7 @@ nav a{
     /* position:relative; */
     background-color: #645B71;
     border-radius: 2rem;
+    margin-bottom: 2rem;
 }
 
 /* .bio:before{
@@ -270,7 +271,6 @@ nav a{
 
 .profile-pic{
     margin: 1rem;
-    margin-top: 0;
     height: 25em;
     width: 25em;
     border-radius: 50%;
