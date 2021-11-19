@@ -405,14 +405,12 @@ nav a{
 }
 
 section{
-    /* width: 100vw; */
-    /* height: 100vh; */
     max-width: 100vw;
     max-height: 100vh;
     background-color: indianred;
 }
 
-.blogs{
+.blog{
     background-color: #514a5c;
     display: flex;
     flex-direction: column;
@@ -433,11 +431,10 @@ section{
     margin-left: 2rem;
     margin-right: 2rem;
     margin-top: .5rem;
-    /* align-items: center; */
-    
-    /* width: min(43.5rem); */
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
     gap: 1rem;
-    
+    /* align-items: center; */
+    /* width: min(43.5rem); */
     /* width: min(90%, 75rem); */
     /* gap: 2em; */
     /* grid-template-columns: 33% 33% 33%; */
