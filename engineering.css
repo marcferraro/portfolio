@@ -346,6 +346,7 @@ nav a{
 
 .my-stack{
     background-color: #645B71;
+    width: 95%;
     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 2rem;
     padding: 2rem;
@@ -453,6 +454,7 @@ section{
     margin-top: .5rem;
     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
     gap: 1rem;
+    /* width: 95%; */
     /* align-items: center; */
     /* width: min(43.5rem); */
     /* width: min(90%, 75rem); */
