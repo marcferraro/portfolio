@@ -53,15 +53,16 @@ body{
 .nav-name{
     display: inline;
     margin: 0;
-    width: 200px;
-    /* margin-left: .5rem; */
     font-size: 2rem;
     color: #FFFFFF;
     font-family: 'Crete Round', serif;
-    border-right: 1px solid rgb(250, 218, 74);
     padding-right: 1rem;
     padding-left: 1rem;
-    /* transition: all 2s ease; */
+}
+
+.nav-name-return{
+    min-width: 230px;
+    border-right: 1px solid rgb(250, 218, 74);
 }
 
 .nav-name:hover{
