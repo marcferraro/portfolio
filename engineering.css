@@ -94,6 +94,10 @@ body{
     font-weight: 900;
 }
 
+.table-of-contents a:hover{
+    color: #fcc95c;
+}
+
 .nav-links{
     text-decoration: none;
     /* color: var(--brickred); */
