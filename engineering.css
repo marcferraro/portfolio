@@ -86,6 +86,10 @@ body{
     font-style: italic;
 }
 
+.nav-links-container span{
+    color: #5d92b4;
+}
+
 .table-of-contents{
     align-items: center;
     display: flex;
