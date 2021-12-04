@@ -187,11 +187,16 @@ nav a{
     font-style: italic;
     /* color: rgb(130, 130, 211); */
     color: #fcc95c;
-    animation-name: typing;
+    /* animation-name: typing;
     animation-duration: 3800ms;
-    animation-iteration-count:initial;
+    animation-iteration-count:initial; */
     /* margin-left: 10%; */
     /* width: 80%; */
+    animation: typing 3.5s steps(40, end),
+    cursor-blink 0.75s step-end infinite;
+    border-right: 0.15em solid orangered;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 /* h1 { */
@@ -206,6 +211,9 @@ nav a{
     font-family: 'DM Serif Display', serif;
     font-style: normal;
     color: #5d92b4;
+    /* animation-name: typing;
+    animation-duration: 3800ms;
+    animation-iteration-count:initial; */
     /* color: rgb(130, 130, 211); */
     /* opacity: .4; */
 }
@@ -541,9 +549,30 @@ section{
 }
 
 @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+  @keyframes cursor-blink {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: orangered;
+    }
+  }
+
+/* @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
     from { opacity: 0;}
     to {opacity:  1;}
-}
+} */
 
 footer{
     background-color: #2d2933;
